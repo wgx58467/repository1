@@ -1,8 +1,11 @@
+//院系表
 CREATE TABLE department(
 dno INT PRIMARY KEY auto_increment,
 dname CHAR(20)
 )
 
+
+//学生表
 create table student(
 	Sno int primary key auto_increment,
 	Sname char(10),
