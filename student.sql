@@ -12,8 +12,9 @@ create table student(
 	Sex char(2),
 	dno INT FOREIGN KEY reference department(dno)
 )
-
+//¿Î³Ì±í
 CREATE TABLE course(
 Cno INT PRIMARY KEY auto_increment,
-Cname CHAR(20)
+Cname CHAR(20),
+grade int
 )
