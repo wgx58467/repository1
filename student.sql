@@ -10,3 +10,7 @@ create table student(
 	dno INT FOREIGN KEY reference department(dno)
 )
 
+CREATE TABLE course(
+Cno INT PRIMARY KEY auto_increment,
+Cname CHAR(20)
+)
